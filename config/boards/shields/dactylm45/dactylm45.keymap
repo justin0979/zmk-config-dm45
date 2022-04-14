@@ -260,10 +260,10 @@
       tap-ms = <0>;
       bindings
        = <&macro_press &to QWE>
-        , <&macro_tap &rgb_ug RGB_COLOR_HSB(255,0,0)>
+        , <&macro_tap &rgb_ug RGB_COLOR_HSB(275,100,100)>
         , <&macro_pause_for_release>
         , <&macro_release &to QWE>
-        , <&macro_tap &rgb_ug RGB_COLOR_HSB(255, 0, 0)>;
+        , <&macro_tap &rgb_ug RGB_COLOR_HSB(275, 100, 100)>;
     };
     default: default {
       label = "DEFAULT_layer";
@@ -273,10 +273,10 @@
       tap-ms = <0>;
       bindings
         = <&macro_press &to DEF>
-        , <&macro_tap &rgb_ug RGB_COLOR_HSB(0, 0, 255)>
+        , <&macro_tap &rgb_ug RGB_COLOR_HSB(240, 100, 100)>
         , <&macro_pause_for_release>
         , <&macro_release &to DEF>
-        , <&macro_tap &rgb_ug RGB_COLOR_HSB(0, 0, 255)>;
+        , <&macro_tap &rgb_ug RGB_COLOR_HSB(240, 100, 100)>;
     };
   };
 
